@@ -6,3 +6,5 @@ $ npm start
 ```
 
 이후 [http://localhost:3000](http://localhost:3000)에서 접속 가능합니다.
+
+일단 깃부터 사용해보자!
