@@ -18,9 +18,11 @@ import ProfileCard from './chapter_13/ProfileCard';
 import DarkOrLight from './chapter_14/DarkOrLight';
 import Blocks from './chapter_15/Blocks';
 
+import ConfirmDialog from './chapter_04/Button';
+
 ReactDOM.render(
   <React.StrictMode>
-    <Blocks />
+    <ConfirmDialog />
   </React.StrictMode>,
   document.getElementById('root')
 );
