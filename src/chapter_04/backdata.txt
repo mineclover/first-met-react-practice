@@ -1,0 +1,32 @@
+import { Children } from 'react/cjs/react.production.min'
+
+{
+  type: 'div' 
+  props: {
+  Children: [
+    {
+      type: 'p'
+      props: {
+        Children: '내용을 확인하셧으면 확인 버튼을 눌러주세요'
+        
+      }
+
+    },
+    {
+      type: button',
+      props: {
+        className: 'bg-green',
+        children: {
+          type: 'b'
+          props: {
+            children: '확인'
+          }
+
+        }
+      }
+    }
+  ]
+
+  }
+
+}

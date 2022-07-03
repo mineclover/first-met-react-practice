@@ -1,9 +1,7 @@
-// eslint-disable-next-line no-unused-vars
 function Button(props) {
-  const styles = {color: props.color};
   return (
 
-    <button style={styles}>
+    <button className={`bg-${props.color}`}>
       <b>
         {props.children}
       </b>
