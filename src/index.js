@@ -19,10 +19,11 @@ import DarkOrLight from './chapter_14/DarkOrLight';
 import Blocks from './chapter_15/Blocks';
 
 import ConfirmDialog from './chapter_04/Button copy';
+import tick from './chapter_04/tick';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ConfirmDialog />
+    <tick />
   </React.StrictMode>,
   document.getElementById('root')
 );
