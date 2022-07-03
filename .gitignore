@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
+/review_obsidian
 .pnp.js
 
 # testing
