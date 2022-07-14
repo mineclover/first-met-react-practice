@@ -19,12 +19,16 @@ import DarkOrLight from './chapter_14/DarkOrLight';
 import Blocks from './chapter_15/Blocks';
 
 import ConfirmDialog from './chapter_04/Button copy';
-import tick from './chapter_04/tick';
+//import tick from './chapter_04/tick';
 
-ReactDOM.render(
+
+import CommentListx from './chapter_05/testCommentList';
+
+  ReactDOM.render(
   <React.StrictMode>
-    <tick />
+    <CommentListx />
   </React.StrictMode>,
+  
   document.getElementById('root')
 );
 
